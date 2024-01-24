@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var collection = ee.ImageCollection('JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR')
 
 
@@ -33,3 +34,6 @@ var stract = HHAmax.subtract(HHDmin)
 Map.addLayer(stract, {min: 0, max: 8000}, 'HHA - D');
 Map.addLayer(HHAmax, {min: 0, max: 8000}, 'HHD');
 Map.addLayer(HHDmax, {min: 0, max: 8000}, 'HHD');
+=======
+
+>>>>>>> ef79ecdd1cc5b2db5d056616bcb24aa19dd988f7
