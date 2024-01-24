@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Load the Sentinel-1 ImageCollection.
 var sentinel1 = ee.ImageCollection('COPERNICUS/S1_GRD');
 
@@ -151,6 +150,3 @@ var circles = rectangles.map(function(rectangle) {
 });
 
 Map.addLayer(ee.FeatureCollection(circles), {color: 'red'}, 'Circles');
-=======
-
->>>>>>> ef79ecdd1cc5b2db5d056616bcb24aa19dd988f7
